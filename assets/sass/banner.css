@@ -1,0 +1,38 @@
+#banner {
+  background-image: url("..images/banner.jpg") center/cover no-repeat;
+}
+
+#banner .row {
+  min-height: 60vh;
+}
+
+img {
+  background: center/cover no-repeat;
+}
+
+.categories_text {
+  position: absolute;
+}
+
+.banner-content {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.banner-content h2 {
+  font-size: 5vw;
+  font-family: "Playfair Display", serif;
+}
+
+.banner-content span {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn:not(.nav-btns button) {
+  color: #555555;
+  padding: 10px 28px;
+  font-family: "Playfair Display", serif;
+  border: 1px solid #555555;
+}
+/*# sourceMappingURL=banner.css.map */

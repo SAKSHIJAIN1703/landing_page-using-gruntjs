@@ -1,0 +1,213 @@
+/*!
+
+ ==== Plugins ====
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap");
+.navbar {
+  -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  width: 30px;
+}
+
+.navbar-brand span {
+  letter-spacing: 2px;
+  font-family: var(--lg-font);
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+.nav-item {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+.nav-item li {
+  margin-left: 120px;
+  font-size: 20px;
+}
+
+#navbarSupportedContent {
+  text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 20px;
+  margin-left: 85px;
+}
+
+.search_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0;
+  height: 35px;
+  line-height: 35px;
+}
+
+.search_box input {
+  border: none;
+  outLine: none;
+  background: white;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.search_box span {
+  color: #25252b;
+  font-size: 20px;
+  background: white;
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+i {
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+i {
+  margin-left: 20px;
+}
+
+#banner {
+  background-image: url("..images/banner.jpg") center/cover no-repeat;
+}
+
+#banner .row {
+  min-height: 60vh;
+}
+
+img {
+  background: center/cover no-repeat;
+}
+
+.categories_text {
+  position: absolute;
+}
+
+.banner-content {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.banner-content h2 {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+}
+
+.banner-content span {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn:not(.nav-btns button) {
+  color: #555555;
+  padding: 10px 28px;
+  font-family: "Playfair Display", serif;
+  border: 1px solid #555555;
+}
+
+.special-img span {
+  top: 20px;
+  right: 20px;
+}
+
+.special-list .btn {
+  padding: 8px 20px !important;
+}
+
+.special-img img {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.special-img:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.text-primary {
+  color: var(--pink) !important;
+}
+
+footer .brand {
+  font-family: var(--lg-font);
+  letter-spacing: 2px;
+}
+
+footer a {
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--pink) !important;
+}
+
+/* media queries */
+@media (min-width: 992px) {
+  .nav-item {
+    border-bottom: none;
+  }
+}
+
+.google {
+  height: 150px;
+}
+
+.rounded-bottom {
+  background-color: #df5d73;
+  height: 40px;
+}
+
+.categories_text1 {
+  position: absolute;
+  left: 25px;
+}
+
+.display-5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 3vw;
+}
+
+.h1, h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.btn-info {
+  color: #fefefe;
+  background-color: #c000ff;
+  border-radius: 12px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* text color */
+/*
+
+ ==== Widgets ====
+
+*/
+/*
+
+ ==== Sections ====
+
+*/
+/*
+
+ ==== Pages ====
+
+*/
+/*# sourceMappingURL=app.css.map */

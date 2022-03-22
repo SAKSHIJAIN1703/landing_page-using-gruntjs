@@ -1,0 +1,23 @@
+.special-img span {
+  top: 20px;
+  right: 20px;
+}
+
+.special-list .btn {
+  padding: 8px 20px !important;
+}
+
+.special-img img {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.special-img:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.text-primary {
+  color: var(--pink) !important;
+}
+/*# sourceMappingURL=collection.css.map */

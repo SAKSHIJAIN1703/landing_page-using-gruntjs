@@ -1,0 +1,73 @@
+@import 'varibles';
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img{
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+
+
+     li{
+        margin-left: 120px;
+        font-size: 20px;
+    }
+   
+}
+#navbarSupportedContent{
+    text-align: right;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    
+    font-size: 20px;
+    margin-left: 85px;
+
+}
+
+.search_box{
+    display:flex;
+    margin:auto 0;
+    height:35px;
+    line-height: 35px;
+   
+
+input{
+    border:none;
+    outLine:none;
+    background: $color;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+   
+}
+span{
+    color:rgb(37, 37, 43);
+    font-size: 20px;
+    background: $color;
+    height:100%;
+    padding:8px;
+    position:relative;
+    cursor:pointer;
+    z-index: 1;
+    
+}
+
+}
+
+i {
+    margin-left: 0px;
+   font-size: 30px;
+}
+i {
+    margin-left: 20px;
+}
